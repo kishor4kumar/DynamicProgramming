@@ -14,18 +14,6 @@ namespace GoldMine
 
     public class Program
     {
-        static void Main(string[] args)
-        {
-            int[,] gold = new int[,]{{1, 3, 1, 5},
-                                {2, 2, 4, 1},
-                                {5, 0, 2, 3},
-                                {0, 6, 1, 2}
-                                };
-            int n = 4, m = 4;
-            var result = GetMaxGold(gold, n, m);
-
-            Console.WriteLine(result);
-        }
         public static int GetMaxGold(int[,] gold, int n, int m)
         {
             for(int col = m - 2; col >= 0; col--)

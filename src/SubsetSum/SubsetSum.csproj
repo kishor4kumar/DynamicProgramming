@@ -4,6 +4,8 @@
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <OutputPath>..\..\bin</OutputPath>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
-
+  
 </Project>

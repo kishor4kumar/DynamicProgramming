@@ -12,10 +12,6 @@ namespace Lis
 
     public class Program
     {
-        static void Main(string[] args)
-        {
-        }
-
         public static int GetLIS(int[] arr)
         {
             int n = arr.Length;

@@ -16,15 +16,6 @@ namespace KnapsackBag
 
     public class Program
     {
-        static void Main(string[] args)
-        {
-            int[] cost = { 1, 2, 3, 4, 5 };
-            int w = 5;
-            int n = cost.Length;
-
-            Console.WriteLine(GetMinimumCost(cost, cost.Length, w));
-        }
-
         public static int GetMinimumCost(int[] cost, int length, int w)
         {
             var values = new List<int>();
